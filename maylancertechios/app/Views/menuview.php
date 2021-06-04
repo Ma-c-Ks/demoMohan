@@ -2,16 +2,16 @@
     
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="<?php echo base_url()?>Addemp">AddEmp</a>
+      <a class="nav-link" href="<?php echo base_url()?>/addEmployee">AddEmp</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="">UpdateEmp</a>
+      <a class="nav-link" href="<?php echo base_url()?>/updateEmployee">update Employee</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="">DeleteEmp</a>
+      <a class="nav-link" href="<?php echo base_url()?>/deleteEmployee">DeleteEmp</a>
     </li>
      <li class="nav-item">
-      <a class="nav-link" href="">ViewEmp</a>
+      <a class="nav-link" href="<?php echo base_url()?>/viewEmployee">ViewEmp</a>
     </li>
   </ul>
 </nav>
