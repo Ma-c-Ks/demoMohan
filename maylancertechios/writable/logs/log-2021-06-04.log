@@ -1,0 +1,205 @@
+CRITICAL - 2021-06-04 03:18:10 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 03:21:12 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 03:32:36 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 03:32:39 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 03:32:42 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 03:33:49 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 20, Array)
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 03:34:34 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 17:47:46 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 17:54:08 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 20, Array)
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 17:54:58 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 20, Array)
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 18:05:29 --> Undefined variable: validation
+#0 C:\wamp64\www\maylancertechios\app\Views\updateEmployeeView.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 14, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateEmployee.php(10): view('updateEmployeeV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-04 18:42:00 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 18:44:37 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 18:44:39 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 0 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 13 and exactly 1 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(13): app\Models\EmployeeModel->deleteEmployee()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 18:51:19 --> Cannot access protected property CodeIgniter\Database\MySQLi\Builder::$db
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-04 18:51:49 --> Unknown column 'employeedetails' in 'where clause'
+CRITICAL - 2021-06-04 18:51:49 --> Unknown column 'employeedetails' in 'where clause'
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `em...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `em...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `em...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `em...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Database\BaseBuilder->delete('employeedetails')
+#5 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-04 18:53:07 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 18:53:40 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 29, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 18:54:01 --> Too few arguments to function app\Models\EmployeeModel::deleteEmployee(), 1 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php on line 38 and exactly 2 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-04 18:54:19 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 18:56:39 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(38): app\Models\EmployeeModel->deleteEmployee('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-04 18:56:43 --> Undefined variable: employeedetails
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteEmployeeView.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 19, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): view('deleteEmployeeV...')
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-04 18:56:53 --> Undefined variable: employeedetails
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteEmployeeView.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 19, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): view('deleteEmployeeV...')
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-04 18:57:06 --> Undefined variable: employeedetails
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteEmployeeView.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 19, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): view('deleteEmployeeV...')
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-04 18:58:15 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 14, Array)
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}

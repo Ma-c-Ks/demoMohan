@@ -1,0 +1,142 @@
+CRITICAL - 2021-06-01 21:52:08 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 21:57:17 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:00:55 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:01:16 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:02:05 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:04:47 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:04:52 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:11:09 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:12:02 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:14:24 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:36:59 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 22:44:25 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 23:05:04 --> Class 'app\Models\EmployeeModel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 23:06:14 --> Class 'app\Models\Employeemodel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-01 23:17:46 --> Class 'app\Models\Employeemodel' not found
+#0 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-06-01 23:19:53 --> Column 'dateofjoining' cannot be null
+CRITICAL - 2021-06-01 23:19:53 --> Column 'dateofjoining' cannot be null
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `em...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\Employeemodel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\Addemp.php(29): app\Models\Employeemodel->Emp(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-01 23:22:04 --> Column 'dateofjoining' cannot be null
+CRITICAL - 2021-06-01 23:22:04 --> Column 'dateofjoining' cannot be null
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `em...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\Employeemodel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\Addemp.php(29): app\Models\Employeemodel->Emp(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-01 23:23:37 --> Column 'dateofjoining' cannot be null
+CRITICAL - 2021-06-01 23:23:37 --> Column 'dateofjoining' cannot be null
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `em...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\Employeemodel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\Addemp.php(29): app\Models\Employeemodel->Emp(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-01 23:26:02 --> Column 'dateofjoining' cannot be null
+CRITICAL - 2021-06-01 23:26:02 --> Column 'dateofjoining' cannot be null
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `em...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\Employeemodel.php(8): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\Addemp.php(29): app\Models\Employeemodel->Emp(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\Addemp->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Addemp))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}

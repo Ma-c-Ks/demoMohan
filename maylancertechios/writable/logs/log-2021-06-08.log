@@ -1,0 +1,44 @@
+CRITICAL - 2021-06-08 19:57:20 --> Undefined property: stdClass::$Id
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteEmployeeView.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 51, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): view('deleteEmployeeV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-08 19:58:27 --> Undefined property: stdClass::$Id
+#0 C:\wamp64\www\maylancertechios\app\Views\updateEmployeeView.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 72, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateEmployee.php(10): view('updateEmployeeV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-08 19:59:44 --> Undefined property: stdClass::$EmployeeId
+#0 C:\wamp64\www\maylancertechios\app\Views\viewEmployeeView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 42, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewEmployeeVie...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\ViewEmployee.php(12): view('viewEmployeeVie...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-08 20:01:20 --> Undefined property: stdClass::$Id
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteEmployeeView.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 51, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteEmployeeV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteEmployee.php(14): view('deleteEmployeeV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteEmployee->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteEmployee))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
