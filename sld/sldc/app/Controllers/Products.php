@@ -20,9 +20,13 @@ class Products extends BaseController
 	    return view('productsCategoryView',$data);
 	}
 	
-	function product($id=''){
+	function subCategory($category='',$subCategory=''){
 	    $productsModel=new ProductsModel();
-	    $data['product']=$productsModel->getProduct($id);
-	    return view('productView',$data);
+	    $data['category']=$category;
+	    $data['subCategory']=$subCategory;
+	    $data['categoryProduct']=$productsModel->getSubCategoryProducts(urldecode($subCategory));
+	    return view('productsSubCategoryView',$data);
 	}
+	
+	
 }

@@ -6,9 +6,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo-img">
-                                <a href="<?php echo base_url()?>"><h3 class="text-white text-center">
-                                   Shri Lakshmi <br>
-                                   Diagnostics</h3>
+                                <a href="<?php echo base_url()?>"><img src="<?php echo base_url("img/logo web.png")?>"  style="height:auto;width:100px;"/>
                                 </a>
                             </div>
                         </div>
@@ -22,11 +20,11 @@
                                                 <li><a href="<?php echo base_url("about")?>">About Us</a></li>
                                                 <li><a href="<?php echo base_url("products")?>">Products <i class="ti-angle-down"></i></a>
                                                     <ul class="submenu">
-                                                        <li><a href="<?php echo base_url("products/accessories")?>">Accessories</a></li>
-                                                        <li><a href="<?php echo base_url("products/rapidCards")?>">Rapid cards</a></li>
-                                                        <li><a href="<?php echo base_url("products/urineStrips")?>">Urine strips</a></li>
-                                                        <li><a href="<?php echo base_url("products/machineries")?>">Machineries</a></li>
-                                                        <li><a href="<?php echo base_url("products/reagents")?>">Reagents</a></li>                                            
+                                                        <li><a href="<?php echo base_url("products/category/Accessories")?>">Accessories</a></li>
+                                                        <li><a href="<?php echo base_url("products/category/Rapid cards")?>">Rapid cards</a></li>
+                                                        <li><a href="<?php echo base_url("products/category/Urine strips")?>">Urine strips</a></li>
+                                                        <li><a href="<?php echo base_url("products/category/Machineries")?>">Machineries</a></li>
+                                                        <li><a href="<?php echo base_url("products/category/Reagents")?>">Reagents</a></li>                                            
                                                     </ul>
                                                 </li>
                                                 

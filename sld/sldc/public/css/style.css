@@ -909,7 +909,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area {
-  position: absolute;
+  
   left: 0;
   right: 0;
   width: 100%;
@@ -933,7 +933,7 @@ h3 {
 
 /* line 14, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  background: rgba(23, 93, 254, 0.85);
+  background: #fff;
 }
 
 @media (max-width: 767px) {
@@ -1022,10 +1022,10 @@ h3 {
 
 /* line 69, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .book_btn a {
-  background: #fff;
+  background: rgba(23, 93, 254, 0.85);
   font-size: 16px;
   font-weight: 400;
-  color: #002278;
+  color: #fff;
   padding: 19px 43px 23px 43px;
   font-family: "Work Sans", sans-serif;
   display: inline-block;
@@ -1074,10 +1074,10 @@ h3 {
 
 /* line 103, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: rgba(23, 93, 254);
   font-size: 16px;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 500;
   display: inline-block;
   padding: 47px 0px 48px 0px;
   font-family: "Work Sans", sans-serif;
@@ -1088,14 +1088,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 103, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 103, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -1120,7 +1120,7 @@ h3 {
 
 /* line 153, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #fff;
+  color: rgb(0, 0, 255);
 }
 
 /* line 157, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_header.scss */
@@ -1335,8 +1335,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_about.scss */
 .welcome_clicnic_area {
-  padding-top: 200px;
-  padding-bottom: 230px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -2462,7 +2462,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_bradcam.scss */
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/banner.jpg);
 }
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_bradcam.scss */
@@ -2769,8 +2769,8 @@ h3 {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -3148,8 +3148,8 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_experts.scss */
 .expert_doctors_area {
-  padding-top: 190px;
-  padding-bottom: 130px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 @media (max-width: 767px) {
@@ -3434,13 +3434,13 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
 .quality_area {
-  padding-top: 195px;
-  padding-bottom: 170px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_quality.scss */
 .quality_area.minus_padd {
-  padding-top: 125px;
+  padding-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -3514,7 +3514,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_book_apontment.scss */
 .book_apointment_area {
-  background-image: url(../img/banner/form_bg.jpg);
+  background-image: url(../img/enquiryBg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

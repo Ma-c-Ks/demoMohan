@@ -21,23 +21,32 @@
 
     <!-- slider_area_start -->
     <div class="slider_area">
-        <div class="slider_active owl-carousel">
-            <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="slider_text ">
-                                <span>the best medical center</span>
-                                <h3> <span>Bringing health</span> <br>
-                                    to life for the whole family.</h3>
-                                <a href="#" class="boxed-btn5">Discover More
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="<?php echo base_url("img/homeScreen1.png")?>" alt="Shri Lakshmi Diagnostics">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?php echo base_url("img/homeScreen1.png")?>" alt="Shri Lakshmi Diagnostics">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="<?php echo base_url("img/homeScreen1.png")?>" alt="Shri Lakshmi Diagnostics">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
     </div>
     <!-- slider_area_end -->
 
@@ -70,12 +79,12 @@
                 <div class="col-lg-6">
                     <div class="section_title">
                         <h3>Products</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                        <p>We supply the need of the hour always!</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="learn_more_btn text-right">
-                        <a href="#" class="boxed-btn">Learn more</a>
+                        <a href="<?php echo base_url("products")?>" class="boxed-btn">View more</a>
                     </div>
                 </div>
             </div>
@@ -85,40 +94,35 @@
                         <ul class="nav" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-                                    <i class="flaticon-teeth"></i>
-                                    <h4>Dentistry</h4>
+                                   <i class="fas fa-briefcase-medical"></i>
+                                    <h4>Accessories</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-                                    <i class="flaticon-cardiovascular"></i>
-                                    <h4>Cardiology</h4>
+                                    <i class="fas fa-hand-holding-medical"></i>
+                                    <h4>Rapid Cards</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-ear"></i>
-                                    <h4>ENT Specialists</h4>
+                                   <i class="fas fa-prescription-bottle"></i>
+                                    <h4>Urine Strips</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Astrology-tab" data-toggle="tab" href="#Astrology" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-bone"></i>
-                                    <h4>Astrology</h4>
+                                   <i class="fas fa-pager"></i>
+                                    <h4>Machineries</h4>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="Neuroanatomy-tab" data-toggle="tab" href="#Neuroanatomy" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-lung"></i>
-                                    <h4>Neuroanatomy</h4>
+                                    <i class="fas fa-biohazard"></i>
+                                    <h4>Reagents</h4>
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="Blood-tab" data-toggle="tab" href="#Blood" role="tab" aria-controls="contact" aria-selected="false">
-                                    <i class="flaticon-cell"></i>
-                                    <h4>Blood Screening</h4>
-                                </a>
-                            </li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -137,7 +141,7 @@
                                 <div class="dept_info">
                                     <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
+                                    <a href="<?php echo base_url("products/category/Accessories")?>" class="boxed-btn">View all Products</a>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +159,7 @@
                                 <div class="dept_info">
                                     <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
+                                    <a href="<?php echo base_url("products/category/Rapid cards")?>" class="boxed-btn">View all Products</a>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +177,7 @@
                             <div class="dept_info">
                                 <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="boxed-btn">Make An Appointment</a>
+                                <a href="<?php echo base_url("products/category/Urine strips")?>" class="boxed-btn">View all Products</a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +195,7 @@
                                 <div class="dept_info">
                                     <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
+                                     <a href="<?php echo base_url("products/category/Machineries")?>" class="boxed-btn">View all Products</a>
                                 </div>
                             </div>
                         </div>
@@ -209,30 +213,13 @@
                                 <div class="dept_info">
                                     <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                    <a href="#" class="boxed-btn">Make An Appointment</a>
+                                     <a href="<?php echo base_url("products/category/Reagents")?>" class="boxed-btn">View all Products</a>
                                 </div>
                             </div>
                         </div>
                         <!-- single_content  -->
                     </div>
-                    <div class="tab-pane fade" id="Blood" role="tabpanel" aria-labelledby="Blood-tab">
-                    <!-- single_content  -->
-                    <div class="row align-items-center">
-                        <div class="col-lg-5">
-                            <div class="dept_thumb">
-                                <img src="https://via.placeholder.com/300" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="dept_info">
-                                <h3>Dentist with surgical mask holding <br> scaler near patient</h3 >
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                                <a href="#" class="boxed-btn">Make An Appointment</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single_content  -->
-                    </div>
+                  
                   </div>
             </div>
 
@@ -336,8 +323,8 @@
                     <div class="popup_box ">
                         <div class="popup_inner">
                             <h3>
-                                Book an 
-                            <span>Appointment</span>
+                                Make an
+                            <span>Enquiry</span>
                             </h3>
                             <form action="#">
                                 <div class="row">
@@ -385,7 +372,7 @@
             <div class="row justify-content-center ">
                 <div class="col-lg-6">
                     <div class="section_title mb-55 text-center">
-                        <h3>Quality Health</h3>
+                        <h3>Quality Products at the Ready</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                     </div>
                 </div>
@@ -423,39 +410,7 @@
     </div>
     <!-- quality_areaend  -->
 
-    <!-- Emergency_contact start -->
-    <div class="Emergency_contact">
-        <div class="Emergency_contact_inner ">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="single_emergency">
-                            <div class="info">
-                                <span>We are here for you</span>
-                                <h3>Book Appointment</h3>
-                            </div>
-                            <div class="info_button">
-                                <a href="#" class="boxed-btn3-white">Book Appointment
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="single_emergency align-items-center d-flex justify-content-end">
-                            <div class="icon">
-                                <i class="flaticon-call"></i>
-                            </div>
-                            <div class="info">
-                                <span>Emergency Medical Care</span>
-                                <h3>+1-465 4545</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Emergency_contact end -->
+   <?php require("subFooterView.php")?>
 <?php require("footerView.php")?>
 
     <!-- link that opens popup -->
@@ -507,6 +462,9 @@
     <!-- form itself end -->
 
 <?php require("footerLinksView.php")?>
+<script>
+$('.carousel').carousel()
+</script>
 </body>
 
 </html>

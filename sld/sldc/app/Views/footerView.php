@@ -44,7 +44,7 @@
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Our Departments
+                                Our products
                             </h3>
                             <ul class="links">
                                 <li><a href="#">Births</a></li>
@@ -65,7 +65,7 @@
                     <div class="col-xl-4  col-md-6 col-lg-4">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                We’re Available
+                                We're Available
                             </h3>
                             <ul class="meting_time">
                                 <li class="d-flex justify-content-between "><span>Monday - Friday</span> <span>8.00 - 18.00</span></li>

@@ -50,16 +50,11 @@
                             </div>
 
                             <div class="blog_details">
-                           <?php if($category->level=="2"){?>
-                               <a class="d-inline-block" href="<?php echo base_url("products/subCategory/$category->category/$category->productname")?>">
-                                    <h2><?php echo $category->productname?></h2>
-                                </a>
-                                <?php }else{?>
+                               
                                 <a class="d-inline-block">
                                     <h2><?php echo $category->productname?></h2>
                                 </a>
-                                <?php }?>
-                               
+                                
                             </div>
                         </article>
                         </div>

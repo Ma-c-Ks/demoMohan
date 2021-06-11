@@ -1,0 +1,22 @@
+CRITICAL - 2021-06-08 23:46:44 --> Undefined property: stdClass::$categoryname
+#0 E:\wamp64\www\sldc\app\Views\productsCategoryView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\wamp64\\www\\s...', 54, Array)
+#1 E:\wamp64\www\sldc\system\View\View.php(230): include('E:\\wamp64\\www\\s...')
+#2 E:\wamp64\www\sldc\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('productsCategor...', Array, true)
+#4 E:\wamp64\www\sldc\app\Controllers\Products.php(20): view('productsCategor...', Array)
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->category('Accessories')
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-08 23:56:36 --> Undefined property: stdClass::$categoryname
+#0 E:\wamp64\www\sldc\app\Views\productsCategoryView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\wamp64\\www\\s...', 54, Array)
+#1 E:\wamp64\www\sldc\system\View\View.php(230): include('E:\\wamp64\\www\\s...')
+#2 E:\wamp64\www\sldc\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('productsCategor...', Array, true)
+#4 E:\wamp64\www\sldc\app\Controllers\Products.php(20): view('productsCategor...', Array)
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->category('accessories')
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

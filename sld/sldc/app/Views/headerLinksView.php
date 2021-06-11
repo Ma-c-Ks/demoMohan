@@ -15,3 +15,4 @@
     <link rel="stylesheet" href="<?php echo base_url()?>/css/slicknav.css">
     <link rel="stylesheet" href="<?php echo base_url()?>/css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <script src="https://kit.fontawesome.com/9e063fb88e.js" crossorigin="anonymous"></script>
