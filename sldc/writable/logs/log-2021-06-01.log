@@ -1,0 +1,86 @@
+CRITICAL - 2021-06-01 03:40:34 --> Invalid file: aboutView.php
+#0 E:\wamp64\www\sldc\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('aboutView.php')
+#1 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('aboutView', Array, true)
+#2 E:\wamp64\www\sldc\app\Controllers\About.php(9): view('aboutView')
+#3 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\About->index()
+#4 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-01 04:20:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 E:\wamp64\www\sldc\app\Controllers\Products.php(12): App\Models\ProductsModel->getProducts()
+#1 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#2 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#3 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-01 04:20:18 --> Table 'sld.productscategory' doesn't exist
+CRITICAL - 2021-06-01 04:20:18 --> Table 'sld.productscategory' doesn't exist
+#0 E:\wamp64\www\sldc\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\wamp64\www\sldc\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\wamp64\www\sldc\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\wamp64\www\sldc\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\sldc\app\Models\ProductsModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\sldc\app\Controllers\Products.php(12): App\Models\ProductsModel->getProducts()
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-01 04:20:31 --> Table 'sld.productcategory' doesn't exist
+CRITICAL - 2021-06-01 04:20:31 --> Table 'sld.productcategory' doesn't exist
+#0 E:\wamp64\www\sldc\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\wamp64\www\sldc\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\wamp64\www\sldc\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\wamp64\www\sldc\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\sldc\app\Models\ProductsModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\sldc\app\Controllers\Products.php(12): App\Models\ProductsModel->getProducts()
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-01 04:20:33 --> Table 'sld.productcategory' doesn't exist
+CRITICAL - 2021-06-01 04:20:33 --> Table 'sld.productcategory' doesn't exist
+#0 E:\wamp64\www\sldc\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\wamp64\www\sldc\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\wamp64\www\sldc\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\wamp64\www\sldc\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\sldc\app\Models\ProductsModel.php(8): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\sldc\app\Controllers\Products.php(12): App\Models\ProductsModel->getProducts()
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-01 04:20:54 --> Undefined variable: products
+#0 E:\wamp64\www\sldc\app\Views\productsView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\wamp64\\www\\s...', 42, Array)
+#1 E:\wamp64\www\sldc\system\View\View.php(230): include('E:\\wamp64\\www\\s...')
+#2 E:\wamp64\www\sldc\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('productsView', Array, true)
+#4 E:\wamp64\www\sldc\app\Controllers\Products.php(13): view('productsView', Array)
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-01 04:21:21 --> Use of undefined constant productsCategory - assumed 'productsCategory' (this will throw an Error in a future version of PHP)
+#0 E:\wamp64\www\sldc\app\Views\productsView.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\wamp64\\www\\s...', 42, Array)
+#1 E:\wamp64\www\sldc\system\View\View.php(230): include('E:\\wamp64\\www\\s...')
+#2 E:\wamp64\www\sldc\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('productsView', Array, true)
+#4 E:\wamp64\www\sldc\app\Controllers\Products.php(13): view('productsView', Array)
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-01 04:28:12 --> Invalid file: contactView.php
+#0 E:\wamp64\www\sldc\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contactView.php')
+#1 E:\wamp64\www\sldc\system\Common.php(1250): CodeIgniter\View\View->render('contactView', Array, true)
+#2 E:\wamp64\www\sldc\app\Controllers\Contact.php(9): view('contactView')
+#3 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Contact->index()
+#4 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

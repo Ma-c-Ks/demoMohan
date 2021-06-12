@@ -1,0 +1,22 @@
+CRITICAL - 2021-06-06 23:14:09 --> You must set the database table to be used with your query.
+#0 E:\wamp64\www\sldc\system\Model.php(602): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 E:\wamp64\www\sldc\system\Model.php(798): CodeIgniter\Model->builder()
+#2 E:\wamp64\www\sldc\app\Controllers\Products.php(12): CodeIgniter\Model->__call('getProductsCate...', Array)
+#3 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->index()
+#4 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#5 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-06-06 23:16:15 --> Table 'sld.products' doesn't exist
+CRITICAL - 2021-06-06 23:16:15 --> Table 'sld.products' doesn't exist
+#0 E:\wamp64\www\sldc\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 E:\wamp64\www\sldc\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\wamp64\www\sldc\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\wamp64\www\sldc\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\wamp64\www\sldc\app\Models\ProductsModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\wamp64\www\sldc\app\Controllers\Products.php(18): App\Models\ProductsModel->getCategoryProducts('Accessories')
+#6 E:\wamp64\www\sldc\system\CodeIgniter.php(931): App\Controllers\Products->category('Accessories')
+#7 E:\wamp64\www\sldc\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#8 E:\wamp64\www\sldc\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\wamp64\www\sldc\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
