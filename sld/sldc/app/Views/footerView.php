@@ -1,4 +1,4 @@
-
+<title>Shri Lakshmi|footerview</title>
     <footer class="footer">
         <div class="footer_top">
             <div class="container">

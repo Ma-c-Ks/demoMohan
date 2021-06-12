@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+<title>Shri Lakshmi|Products|category</title>
 
 <head>
     <meta charset="utf-8">
