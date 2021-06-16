@@ -1,0 +1,18 @@
+CRITICAL - 2021-06-10 22:03:45 --> Invalid file: viewCustomerView.php
+#0 C:\wamp64\www\maylancertechios\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewCustomerVie...')
+#1 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewCustomerVie...', Array, true)
+#2 C:\wamp64\www\maylancertechios\app\Controllers\ViewCustomer.php(11): view('viewCustomerVie...', Array)
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewCustomer->index()
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewCustomer))
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-10 22:06:18 --> Invalid file: viewCustomerView.php
+#0 C:\wamp64\www\maylancertechios\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('viewCustomerVie...')
+#1 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewCustomerVie...', Array, true)
+#2 C:\wamp64\www\maylancertechios\app\Controllers\ViewCustomer.php(11): view('viewCustomerVie...', Array)
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewCustomer->index()
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewCustomer))
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}

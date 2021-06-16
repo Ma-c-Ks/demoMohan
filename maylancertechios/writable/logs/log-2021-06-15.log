@@ -1,0 +1,165 @@
+ERROR - 2021-06-15 17:23:08 --> Unknown column 'costomername' in 'field list'
+CRITICAL - 2021-06-15 17:23:08 --> Unknown column 'costomername' in 'field list'
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cu...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\AddCustomer.php(22): app\Models\EmployeeModel->AddCustomer(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\AddCustomer->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddCustomer))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-15 17:29:32 --> Unknown column 'invoicenumber' in 'field list'
+CRITICAL - 2021-06-15 17:29:33 --> Unknown column 'invoicenumber' in 'field list'
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cu...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\AddCustomer.php(22): app\Models\EmployeeModel->AddCustomer(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\AddCustomer->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddCustomer))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 19:25:45 --> Undefined property: stdClass::$paymentdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 44, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateCustomer.php(10): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 19:29:46 --> Undefined property: stdClass::$paymentdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 44, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateCustomer.php(10): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 19:29:56 --> Undefined property: stdClass::$paymentdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 44, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateCustomer.php(10): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 19:31:49 --> Undefined property: stdClass::$invoicenumber
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 44, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateCustomer.php(10): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 19:32:40 --> Undefined property: stdClass::$invoicenumber
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 44, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdateCustomer.php(10): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdateCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdateCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-15 19:33:07 --> Unknown column 'invoicenumber' in 'field list'
+CRITICAL - 2021-06-15 19:33:07 --> Unknown column 'invoicenumber' in 'field list'
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `cu...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cu...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cu...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cu...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\maylancertechios\app\Controllers\AddCustomer.php(22): app\Models\EmployeeModel->AddCustomer(Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\AddCustomer->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddCustomer))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-15 19:37:35 --> Undefined property: stdClass::$paymentdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\viewCustomerView.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 30, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewCustomerVie...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\ViewCustomer.php(11): view('viewCustomerVie...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 21:32:55 --> Undefined variable: customerdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\viewCustomerPaymentView.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 18, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewCustomerPay...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\ViewCustomerPayment.php(11): view('viewCustomerPay...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewCustomerPayment->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewCustomerPayment))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 21:38:39 --> Undefined variable: customerdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\viewCustomerPaymentView.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 18, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('viewCustomerPay...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\ViewCustomerPayment.php(11): view('viewCustomerPay...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\ViewCustomerPayment->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewCustomerPayment))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 22:00:18 --> Undefined variable: customerdetails
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerView.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 24, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerV...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdatePaymentCustomer.php(11): view('updateCustomerV...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdatePaymentCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePaymentCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 22:03:50 --> Undefined property: stdClass::$invoice
+#0 C:\wamp64\www\maylancertechios\app\Views\updateCustomerPaymentView.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 31, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('updateCustomerP...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\UpdatePaymentCustomer.php(11): view('updateCustomerP...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdatePaymentCustomer->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePaymentCustomer))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-15 22:05:31 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 112, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\UpdatePaymentCustomer.php(21): app\Models\EmployeeModel->updateCustomerPayment(Array, NULL)
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdatePaymentCustomer->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePaymentCustomer))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-15 22:06:40 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 113, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\UpdatePaymentCustomer.php(21): app\Models\EmployeeModel->updateCustomerPayment(Array, NULL)
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\UpdatePaymentCustomer->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UpdatePaymentCustomer))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
