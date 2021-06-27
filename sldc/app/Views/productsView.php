@@ -45,7 +45,7 @@
                    <div class="col-md-4">
                     <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="img/blog/single_blog_1.png" alt="">
+                                <img class="card-img rounded-0" src="<?php echo base_url()?>" alt="">
                                 
                             </div>
 
