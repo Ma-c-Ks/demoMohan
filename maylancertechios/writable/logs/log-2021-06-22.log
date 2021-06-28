@@ -1,0 +1,147 @@
+CRITICAL - 2021-06-22 02:26:43 --> Undefined property: stdClass::$name
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteTrainingStudentView.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 48, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteTrainingS...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(13): view('deleteTrainingS...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 02:29:05 --> Undefined property: stdClass::$name
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteTrainingStudentView.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 48, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteTrainingS...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(13): view('deleteTrainingS...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 02:29:44 --> Undefined property: stdClass::$clgdno
+#0 C:\wamp64\www\maylancertechios\app\Views\deleteTrainingStudentView.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\m...', 49, Array)
+#1 C:\wamp64\www\maylancertechios\system\View\View.php(230): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\maylancertechios\system\Common.php(1250): CodeIgniter\View\View->render('deleteTrainingS...', Array, true)
+#4 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(13): view('deleteTrainingS...', Array)
+#5 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->index()
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 02:31:20 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 164, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:33:40 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 164, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:33:47 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 164, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:33:59 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 164, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:37:09 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 163, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:38:00 --> Too few arguments to function app\Models\EmployeeModel::deleteTrainingStudent(), 1 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php on line 21 and exactly 2 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(21): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-06-22 02:41:05 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-22 02:41:05 --> Operand should contain 1 column(s)
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `tr...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tr...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tr...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tr...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Database\BaseBuilder->delete('1')
+#5 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(44): app\Models\EmployeeModel->deleteTrainingStudent('1', Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-06-22 02:42:18 --> Operand should contain 1 column(s)
+CRITICAL - 2021-06-22 02:42:18 --> Operand should contain 1 column(s)
+#0 C:\wamp64\www\maylancertechios\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `tr...')
+#1 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `tr...')
+#2 C:\wamp64\www\maylancertechios\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `tr...')
+#3 C:\wamp64\www\maylancertechios\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `tr...', Array, false)
+#4 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Database\BaseBuilder->delete('1')
+#5 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(44): app\Models\EmployeeModel->deleteTrainingStudent('1', Array)
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#7 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#8 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-22 02:44:02 --> Too few arguments to function app\Models\EmployeeModel::deleteTrainingStudent(), 1 passed in C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php on line 26 and exactly 2 expected
+#0 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(26): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#1 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-22 02:44:30 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 163, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(26): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 02:59:23 --> Undefined variable: data
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(164): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 164, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(26): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 03:00:40 --> Undefined variable: id
+#0 C:\wamp64\www\maylancertechios\app\Models\EmployeeModel.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 163, Array)
+#1 C:\wamp64\www\maylancertechios\app\Controllers\DeleteTrainingStudent.php(26): app\Models\EmployeeModel->deleteTrainingStudent('1')
+#2 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(931): App\Controllers\DeleteTrainingStudent->submit()
+#3 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeleteTrainingStudent))
+#4 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-06-22 03:40:43 --> Undefined variable: totalTime
+#0 C:\wamp64\www\maylancertechios\system\Debug\Toolbar\Views\toolbar.tpl.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\m...', 41, Array)
+#1 C:\wamp64\www\maylancertechios\system\Debug\Toolbar.php(495): include('C:\\wamp64\\www\\m...')
+#2 C:\wamp64\www\maylancertechios\system\Debug\Toolbar.php(452): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\wamp64\www\maylancertechios\app\Config\Events.php(52): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\wamp64\www\maylancertechios\system\Events\Events.php(166): call_user_func(Object(Closure))
+#6 C:\wamp64\www\maylancertechios\system\CodeIgniter.php(319): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\wamp64\www\maylancertechios\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}

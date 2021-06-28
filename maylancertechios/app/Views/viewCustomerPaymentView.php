@@ -8,7 +8,7 @@
 <h1>
 View Customer Payment</h1>
 <?php if($payment!=null){?>
-<table class="table table-dark">
+<table class="table table-light">
 <tr class="table-primary">
 <th>invoicenumber</th>
 <th>date</th>

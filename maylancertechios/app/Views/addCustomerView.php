@@ -7,9 +7,12 @@ use Config\Services;
 </head>
 <body>
 <?php require 'menuview.php';?>
+
 <div class="container">
 <h1>
 Add Customer</h1>
+
+
 <form action="<?php echo base_url('addcustomer/submit')?>" method="post">
 
 Customer Name:<input type="text" name="customerName" class="form-control"><br>

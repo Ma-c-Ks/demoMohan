@@ -8,7 +8,7 @@
 <h1>
 View Customer</h1>
 <?php if($customerdetails!=null){?>
-<table class="table table-dark">
+<table class="table table-light">
 <tr class="table-primary">
 <th>id</th>
 <th>companyname</th>

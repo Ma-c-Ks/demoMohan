@@ -33,8 +33,8 @@ Year of Passing:<input type="text" name="yearOfPassing" class="form-control"><br
 
 
 <lable>Marital Status</lable><br>
-<input type="radio" name="maritalStatus" value="male">Male<br>
-<input type="radio" name="maritalStatus" value="female">Female<br>
+<input type="radio" name="maritalStatus" value="maried">Male<br>
+<input type="radio" name="maritalStatus" value="unmaried">Female<br>
 
 
 

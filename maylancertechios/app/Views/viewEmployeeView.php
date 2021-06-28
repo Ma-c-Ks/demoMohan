@@ -8,7 +8,7 @@
 View Employee</h1>
 
 <?php if($employeedetails!=null){?>
-<table class="table table-dark">
+<table class="table table-light">
 <tr class="table-primary">
 
 <th>id</th>

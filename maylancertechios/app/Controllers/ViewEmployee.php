@@ -1,16 +1,12 @@
 <?php
 namespace App\Controllers;
-
-
 use App\Models\EmployeeModel;
-
 class ViewEmployee extends BaseController
 {
     public function index(){
         $employeeModel=new EmployeeModel();
         $data["employeedetails"]=$employeeModel->getEmployee();
-        return view('viewEmployeeView',$data);
-        
+        return view('viewEmployeeView',$data);        
     }
     public function submit(){
         $id=$this->request->getPost("id");
@@ -30,19 +26,15 @@ class ViewEmployee extends BaseController
         $data['shift']=$this->request->getPost("shift");
         $data['jobtitle']=$this->request->getPost("jobTitle");
         $data['accountnumber']=$this->request->getPost("accountNumber");
-        $data['ifsccode']=$this->request->getPost("ifscCode");
-        
+        $data['ifsccode']=$this->request->getPost("ifscCode");        
         $employeeModel=new EmployeeModel();
-        $result=$employeeModel->getEmployee($data,$id);
-        
+        $result=$employeeModel->getEmployee($data,$id);        
         if($result){
             echo"Successfully Employee Added!";
         }
         else{
             echo "failed";
-        }
-        
-    }
-    
+        }       
+    }    
 }
     
